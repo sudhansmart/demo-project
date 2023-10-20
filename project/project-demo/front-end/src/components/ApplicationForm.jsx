@@ -37,7 +37,7 @@ function ApplicationForm() {
       event.preventDefault();
       const newForm = formData
       if (Object.values(formData).some((value) => value !== '')) {
-           axios.post('http://localhost:5174/create',newForm)
+           axios.post('https://demo-project-8fkj.onrender.com/create',newForm)
        
       }
          else{
