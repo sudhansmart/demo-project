@@ -42,10 +42,10 @@ These instructions will guide you on how to set up and run this project on your 
    npm run dev
    
 ## Tech Stack
-Frontend: React
-Backend: Node.js, Express
-Database: MongoDB
+-Frontend: React ,Bootstrap ,axios,
+-Backend: Nodejs, Express
+-Database: MongoDB
 ## Deployment Links
-Frontend: Deployed on Netlify -  https://6532e9b90c661e14b558153b--demositesudhan.netlify.app
-Backend Server: Deployed on Render - [Demo Project on Render](https://demo-project-8fkj.onrender.com)https://demo-project-8fkj.onrender.com
+-Frontend: Deployed on Netlify -  https://6532e9b90c661e14b558153b--demositesudhan.netlify.app
+-Backend Server: Deployed on Render - https://demo-project-8fkj.onrender.com
 
