@@ -1,0 +1,231 @@
+*{
+  margin : 0% ;
+  padding : 0%;
+  box-sizing : border-box;
+   }
+   /* CSS for the header */
+   .header {
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header-title{
+    color: seagreen;
+  }
+   /* CSS for the logo */
+   .logo {
+    max-width: 100px; /* Set a maximum width for the logo */
+    margin-right: 20px; /* Add right margin for spacing */
+   }
+  /* CSS for Navbar */
+  .Navbar{
+    background-color: darkblue;
+  }
+  .navbar-nav :active {
+    color: white;
+  }
+  .navbar-nav:hover {
+    color: white;
+  }
+  .Nav-Text{
+    color: white;
+  }
+  .nav-link{
+    color: white;
+  }
+  .navbar-brand,.navbar-brand:focus ,.navbar-brand :hover,.navbar-brand:active{
+    color: white;
+  }
+  .dropdown-menu :hover{
+    background-color: antiquewhite ;
+  }
+  /* CSS for Notification Bar */
+  .scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll 30s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* NotifyBar.css */
+  .notify-container {
+    background-color: antiquewhite;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+     }
+  
+  .button-container {
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 8px; 
+  }
+  /* .slide-down {
+    height: 50px; /* Set the height you want the notification to expand to */
+  /* } */ */
+  
+
+  /* CSS for Dashboard */
+  
+  .Cover{
+      background-color: #dadaf6;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: auto;
+      padding-bottom: 20px
+   
+  }
+  
+  .DashBoard{
+    background-color: #dadaf6;
+    padding: 25px;
+    display: flex;
+    justify-content: right;
+    height: auto;
+  }
+  
+  .drop-down{
+    padding: 15px;
+    width: fit-content;
+    height: 50px;
+    border-radius: 15px;
+  }
+  /* CSS For Cards */
+  .card{
+     background-color: #dadaf6;
+     display: flex;
+     align-items: center;
+     height: auto;
+     padding-bottom: 20px;
+     border: 0.0 solid;
+  }
+  
+  .glassy-card1 {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 250px;
+    height:125px
+  }
+  .glassy-card2 {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+      color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 250px;
+    height:125px
+  }
+  .glassy-card3 {
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+      color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 250px;
+    height:125px
+  }
+  .glassy-card4 {
+    background: linear-gradient(to right, #a86008, #ffba56) !important;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 250px;
+    height:125px
+  }
+  .count-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-icon{
+    color: #000;
+    font-size: 100px;
+    opacity: 0.2;
+  }
+  
+  .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: #fff; /* Text color */
+  }
+  
+  .count-numbers {
+    font-size: 30px;
+  }
+  
+  .count-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+  /* CSS for Table */
+  .Table{
+    background-color: #dadaf6 ;
+  }
+  .table-head{
+    padding: 5%;
+  }
+  .sub-title{
+    padding-left: 50px;
+  }
+  .filter{
+    padding: 5px 50px 20px 50px;
+  }
+  /* CSS for DataTable */
+  .DataTable{
+    background-color: #dadaf6;
+    padding: 10px 50px;
+  }
+  .table>:not(caption)>*>* {
+    background-color: lightyellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  /* CSS For Application Form */
+  .container{
+    padding: 20px;
+  }
+  .App-button{
+   
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+  }
+  .form-label{
+    margin-top: 20px;
+  }
