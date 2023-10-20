@@ -27,7 +27,7 @@ function HomePage() {
   // Define a function to fetch data using GET
   const fetchDataFromServer = async () => {
     try {
-      const response = await axios.get('http://localhost:5174/list'); // Replace with your endpoint
+      const response = await axios.get('https://demo-project-8fkj.onrender.com/list'); // Replace with your endpoint
       if (response.status === 200) {
         setData(response.data);
         console.log(response.data)
@@ -64,7 +64,7 @@ function HomePage() {
         const itemToDelete = data[rowIndex];
         const id = itemToDelete._id;
         try {
-          const response = await fetch(`http://localhost:5174/delete/${id}`, {
+          const response = await fetch(`https://demo-project-8fkj.onrender.com/delete/${id}`, {
             method: 'DELETE',
             headers: {
               'Content-Type': 'application/json',
