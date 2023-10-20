@@ -43,7 +43,7 @@ To deploy the project for production.
    cd your project/project-demo/front-end
    npm install
    npm run dev
- ```bash
+ 
 ### Tech Stack
 
 - React -FrontEnd
